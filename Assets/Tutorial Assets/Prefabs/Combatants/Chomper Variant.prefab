@@ -1092,10 +1092,166 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1000012909287652, guid: abb9f519b142e304d9c45b56afa768bc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2248107687491018892}
   m_SourcePrefab: {fileID: 100100000, guid: abb9f519b142e304d9c45b56afa768bc, type: 3}
 --- !u!4 &8796480343315725283 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000013488956786, guid: abb9f519b142e304d9c45b56afa768bc, type: 3}
   m_PrefabInstance: {fileID: 8799283502392614545}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8799708457632237173 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000012909287652, guid: abb9f519b142e304d9c45b56afa768bc, type: 3}
+  m_PrefabInstance: {fileID: 8799283502392614545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2248107687491018892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8799708457632237173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 129981271, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serialize_conditionSetting:
+    name: conditionSetting
+    byteData: 
+    xmlData: '<xmldata autoCheckType="0" conditionFail="0" needed="0" >
+
+      <_float
+      destroyCheckDelay="1" />
+
+      <_bool repeatCheck="False" />
+
+      <_subarrays>
+
+      <condition>
+
+      </condition>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0
+    stringData: 
+  serialize_baseSettings:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata>
+
+      <assetSetting executionType="0" updateType="0" priority="0"
+      endAction="0" >
+
+      <_float startDelayTime="0" endDelayTime="0" autoStopCheckTime="0"
+      />
+
+      <_bool inPause="False" setPriority="False" stopOnDestroy="True" turnStartingObject="False"
+      turnMachineObject="False" turnRestoreMachineObject="False" autoStop="False"
+      />
+
+      <_asset schematicAsset="0" />
+
+      <machineType>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </machineType>
+
+      <inputID>
+
+      <_bool
+      overrideID="False" />
+
+      </inputID>
+
+      </assetSetting>
+
+      <changeAfterSetting>
+
+      <_bool
+      setVariables="False" />
+
+      </changeAfterSetting>
+
+      <startVariableSetting>
+
+      <_bool
+      setStartVariables="False" />
+
+      </startVariableSetting>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: dcd6953e1a506b8498fc618f787b803e, type: 2}
+    encrypted: 0
+    stringData: 
+  actor: []
+  resources:
+    prefab: []
+    audioClip: []
+    audioMixer: []
+    audioMixerGroup: []
+    sprite: []
+    texture: []
+    material: []
+    physicMaterial: []
+    physicsMaterial2D: []
+  serialize_setting:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata>
+
+      <startSetting>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.TaggedMachineStartSetting]]></_type>
+
+      </_string>
+
+      <_stringarrays>
+
+      <startTag>
+
+      <0><![CDATA[hitEffect]]></0>
+
+      </startTag>
+
+      </_stringarrays>
+
+      </startSetting>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0
+    stringData: 
