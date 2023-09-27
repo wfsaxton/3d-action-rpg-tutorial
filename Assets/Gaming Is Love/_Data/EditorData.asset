@@ -16,11 +16,11 @@ MonoBehaviour:
   lastSaveFormat: 0
   lastEncrypted: 0
   editorHelpLanguageTexts: {fileID: 0}
-  section: 7
-  subSection: 5
-  tabIndex: 2
-  scrollY: 120
-  foldoutLimit: Battle Settings
+  section: 6
+  subSection: 4
+  tabIndex: 0
+  scrollY: 95
+  foldoutLimit: Use Settings
   helpDrag: 220
   subSectionDrag: 250
   tabListDrag: 250
@@ -36,6 +36,7 @@ MonoBehaviour:
   updateScenes: 0
   sceneUpdate: 
   schematicAsset:
+  - {fileID: 11400000, guid: ba7d81eac2e41284a884ac3bb56ab485, type: 2}
   - {fileID: 11400000, guid: fa877a89fdce4e047b7a349c2a2076e0, type: 2}
   - {fileID: 11400000, guid: e245605642e23bd429c774fba126fa24, type: 2}
   - {fileID: 11400000, guid: dcd6953e1a506b8498fc618f787b803e, type: 2}
