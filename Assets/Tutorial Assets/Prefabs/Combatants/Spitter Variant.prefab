@@ -72,6 +72,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1267072226183200518}
   - component: {fileID: 8260277663956543141}
+  - component: {fileID: 4148430469219175386}
   m_Layer: 10
   m_Name: Attack
   m_TagString: Untagged
@@ -115,6 +116,108 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0.5, z: 0.7}
+--- !u!114 &4148430469219175386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8227897898961042753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1546199915, guid: 2f433824042009943be1767c00adb2ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serialize_setting:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata type="2" >
+
+      <_float expand="0" destroyTime="0" targetResetTime="1"
+      damageEvery="0" />
+
+      <_bool changeCollider="False" alwaysOn="False" alwaysOnKnowsAbility="True"
+      alwaysOnConsumeCosts="False" setCombatant="False" destroyAfterTime="False"
+      destroyOnDamage="False" destroyOnCollision="False" zoneFromChildren="True"
+      zoneFromParent="True" oneTimeDamage="True" oneTarget="False" resetTargets="False"
+      autoField="True" baseAttack="False" counterAttack="False" />
+
+      <_stringarrays>
+
+      <activationTag>
+
+      <0><![CDATA[attack]]></0>
+
+      </activationTag>
+
+      </_stringarrays>
+
+      <alwaysOnAbility>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </alwaysOnAbility>
+
+      <faction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </faction>
+
+      <autoBattleSystem
+      gridBattles="2" >
+
+      <_bool allBattleSystems="True" />
+
+      </autoBattleSystem>
+
+      <_subarrays>
+
+      <ability>
+
+      </ability>
+
+      <item>
+
+      </item>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0
+    stringData: 
 --- !u!1001 &5645630743336852632
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -841,6 +944,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100004, guid: 3a3cea986292c2445a02c973a48c7e8b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1083544681755984081}
+    - targetCorrespondingSourceObject: {fileID: 100004, guid: 3a3cea986292c2445a02c973a48c7e8b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4577139663011858788}
+    - targetCorrespondingSourceObject: {fileID: 100004, guid: 3a3cea986292c2445a02c973a48c7e8b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7033798079975025607}
   m_SourcePrefab: {fileID: 100100000, guid: 3a3cea986292c2445a02c973a48c7e8b, type: 3}
 --- !u!1 &9143069242548794784 stripped
 GameObject:
@@ -1015,6 +1124,124 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 1
   m_ObstacleAvoidanceType: 4
+--- !u!114 &4577139663011858788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9143069242548794784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 754012238, guid: 2f433824042009943be1767c00adb2ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serialize_setting:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata>
+
+      <_float damageFactor="1" />
+
+      <_bool blockDamage="False"
+      showBlockFlyingText="False" flyingTextAtObject="False" playSound="False" />
+
+      <schematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </schematicAsset>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0
+    stringData: 
+--- !u!114 &7033798079975025607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9143069242548794784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -65473789, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serialize_setting:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata scaleAxis="0" >
+
+      <_bool useScale="True" />
+
+      <radius>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0.6" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </radius>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0
+    stringData: 
 --- !u!4 &9143069242548824448 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: 3a3cea986292c2445a02c973a48c7e8b, type: 3}
